@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+<input id="inp" />
+<button id="btn">+</button>
+<div>
+    <ul id="ul">
+
+    </ul>
+</div>
+<script>
+    const btn = document.getElementById('btn');
+    const inp = document.getElementById('inp');
+    const ul = document.getElementById('ul');
+
+    btn.addEventListener('click', addLi);
+
+    function addLi() {
+        if (inp.value !== '') {
+            const li = document.createElement('li');
+            li.innerText = inp.value;
+            const button = document.createElement('button');
+            button.innerText = '-';
+            button.addEventListener('click', event => event.target.parentNode.remove())
+            li.appendChild(button);
+            ul.appendChild(li);
+        }
+    }
+
+
+</script>
+</body>
+</html>
