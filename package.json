@@ -1,0 +1,27 @@
+{
+  "name": "js_classes_october_2018",
+  "version": "1.0.0",
+  "description": "Training JS project",
+  "main": "Ex1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mher2/JavaScript.git"
+  },
+  "keywords": [
+    "npm",
+    "github",
+    "training"
+  ],
+  "author": "Mher Simonyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mher2/JavaScript/issues"
+  },
+  "homepage": "https://github.com/Mher2/JavaScript#readme",
+  "dependencies": {
+    "react": "^16.8.1"
+  }
+}
